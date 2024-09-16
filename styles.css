@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(227, 193, 216);
+}
+
+header {
+    background-color: rgb(71, 11, 51);
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(201, 143, 67);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('Portfolio\ banner\ design.jpg'); /* Path to your image */
+    background-size: contain; /* Cover the entire section */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    color: #fff; /* White text color to contrast the background */
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #c157ad90;
+    background-size: contain;
+}
+
+/* Carousel Container */
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Carousel Slide */
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Images in Carousel */
+.carousel-slide img {
+    width: 100%;
+    border: 2px solid #fff;
+    background-size: contain;
+}
+
+/* Navigation Buttons */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
+
+
+
+
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(245, 235, 235);
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.project-card, .wireframe, .testimonial {
+    border: 1px solid rgb(238, 235, 235);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 40px 0;
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section    {
+    flex: 1;
+    margin-right: 30px;   
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ddd; /* Light gray border */
+    padding-top: 20px;
+}
