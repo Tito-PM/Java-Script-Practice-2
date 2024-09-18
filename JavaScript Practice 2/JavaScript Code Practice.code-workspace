@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../PMP Training/JavaScript Code Practice"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Java Script Code Portfolio"
+	}
+}
